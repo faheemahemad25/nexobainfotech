@@ -45,13 +45,13 @@ export const SERVICES = [
     icon: "Cpu"
   },
   {
-    id: "ai-workflow-agents",
-    key: "agents",
-    name: "AI Workflow & Agents",
-    short: "Autonomous agents that handle multi-step work across your enterprise tools.",
-    text: "Intelligent automations that read, decide, and act: autonomously triaging customer queries, updating records, orchestrating APIs, and preparing drafts with human-in-the-loop safeguards.",
+    id: "ai-workflow-automation",
+    key: "automation",
+    name: "Workflow & Automation",
+    short: "Automation that handle multi-step work across your enterprise tools.",
+    text: "Intelligent automations that read, decide, and act that triaging customer queries, updating records, orchestrating APIs, and preparing drafts with human-in-the-loop safeguards.",
     points: [
-      "Autonomous agents integrated with Slack, Email, CRM, and databases",
+      "Automation integrated with Slack, Email, CRM, and databases",
       "Human-in-the-loop review checkpoints and comprehensive audit logs",
       "Multi-agent orchestration pipelines for complex task decomposition",
       "Continuous hallucination detection, rate limiting, and cost controls"

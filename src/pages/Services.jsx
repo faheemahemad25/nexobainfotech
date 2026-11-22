@@ -28,7 +28,7 @@ export default function Services() {
 
       {/* Filter / Quick Jump Bar */}
       <div style={{ background: '#fff', borderBottom: '1px solid var(--border)', position: 'sticky', top: 'var(--header-height)', zIndex: 30 }}>
-        <div className="wrap" style={{ overflowX: 'auto', paddingBlock: '8px' }}>
+        <div className="wrap" style={{ overflowX: 'auto', paddingBlock: '8px', scrollbarWidth: 'none'}}>
           <div style={{ display: 'flex', gap: '8px', minWidth: 'max-content' }}>
             <button
               onClick={() => setActiveCategory("all")}

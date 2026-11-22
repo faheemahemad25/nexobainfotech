@@ -61,8 +61,8 @@ export default function Portfolio() {
         <div className="wrap">
           {/* Controls bar: Tabs and Search */}
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px', marginBottom: '8px' }}>
-            <div className="tabs-scroll-container" style={{ margin: 0, border: 0, flex: 1 }}>
-              <div className="tabs-list" role="tablist" aria-label="Portfolio categories">
+            <div className="tabs-scroll-container" style={{ margin: 0, border: 0, flex: 1, scrollbarWidth: 'none'}}>
+              <div className="tabs-list" role="tablist" aria-label="Portfolio categories" >
                 {CATEGORIES.map((tab) => {
                   const isSelected = selectedCat === tab.key;
                   return (
